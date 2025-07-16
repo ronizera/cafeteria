@@ -1,4 +1,5 @@
 import { Heart, Award, Users } from "lucide-react"
+import Image from "next/image"
 
 export function About() {
   return (
@@ -15,7 +16,7 @@ export function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src="/placeholder.svg?height=400&width=600"
+              src="/interior.jpg width=600"
               alt="Interior da cafeteria"
               className="rounded-lg shadow-lg w-full"
             />
