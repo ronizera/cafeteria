@@ -24,11 +24,11 @@ export function Contact() {
               </CardHeader>
               <CardContent>
                 <p className="text-stone-300">
-                  Rua das Flores, 123
+                  Av. Jorge Teixeira, 602B
                   <br />
-                  Centro - Sua Cidade
+                  Candeias - Vitória da Conquista
                   <br />
-                  CEP: 12345-678
+                  CEP: 45028-536
                 </p>
               </CardContent>
             </Card>
@@ -41,7 +41,7 @@ export function Contact() {
                 </CardTitle>
               </CardHeader>
               <CardContent>
-                <p className="text-stone-300">(11) 9999-9999</p>
+                <p className="text-stone-300">(77) 98126-5953</p>
               </CardContent>
             </Card>
 
@@ -54,9 +54,9 @@ export function Contact() {
               </CardHeader>
               <CardContent>
                 <div className="text-stone-300">
-                  <p>Segunda a Sexta: 7h às 19h</p>
-                  <p>Sábado: 8h às 18h</p>
-                  <p>Domingo: 8h às 16h</p>
+                  <p>Segunda a Sexta: 8h às 21h</p>
+                  <p>Sábado: 8h às 21h</p>
+                  <p>Domingo: 8h às 21h</p>
                 </div>
               </CardContent>
             </Card>

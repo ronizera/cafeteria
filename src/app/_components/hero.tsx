@@ -15,7 +15,7 @@ export function Hero() {
       ></div>
 
       <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6 drop-shadow-lg">Café Aroma</h1>
+        <h1 className="text-5xl md:text-7xl font-bold mb-6 drop-shadow-lg">Morioka Café</h1>
         <p className="text-xl md:text-2xl mb-8 drop-shadow-md">O melhor café da cidade, feito com amor e tradição</p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button size="lg" className="bg-amber-600 hover:bg-amber-500 text-white px-8 py-3">

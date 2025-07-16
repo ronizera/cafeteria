@@ -1,12 +1,13 @@
+import Image from "next/image"
+import img1 from "../../../public/cafe1.jpg"
+import img2 from "../../../public/cafe2.jpg"
+import img3 from "../../../public/cafe3.jpg"
+import img4 from "../../../public/cafe4.jpg" 
+import img5 from "../../../public/cafe5.jpg"
+import img6 from "../../../public/cafe6.jpg"
+
 export function Gallery() {
-  const images = [
-    "/placeholder.svg?height=300&width=400",
-    "/placeholder.svg?height=300&width=400",
-    "/placeholder.svg?height=300&width=400",
-    "/placeholder.svg?height=300&width=400",
-    "/placeholder.svg?height=300&width=400",
-    "/placeholder.svg?height=300&width=400",
-  ]
+  const images = [img1, img2, img3, img4, img5, img6,]
 
   return (
     <section id="galeria" className="py-20 bg-stone-800">
@@ -17,13 +18,18 @@ export function Gallery() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {images.map((image, index) => (
+          {images.map((img, index) => (
             <div key={index} className="overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow">
-              <img
-                src={image || "/placeholder.svg"}
-                alt={`Galeria ${index + 1}`}
-                className="w-full h-64 object-cover hover:scale-105 transition-transform duration-300"
-              />
+              <Image
+              src={img}
+              alt={`Imagem ${index + 1}`}
+              objectFit="cover"
+              width={20000}
+              className="object-cover hover:scale-105 transition-transform duration-300"
+             />
+
+              
+
             </div>
           ))}
         </div>

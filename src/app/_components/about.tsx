@@ -1,4 +1,5 @@
 import { Heart, Award, Users } from "lucide-react"
+import interiorImg from "../../../public/interior.jpg"
 import Image from "next/image"
 
 export function About() {
@@ -15,11 +16,12 @@ export function About() {
 
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
-            <img
-              src="/interior.jpg width=600"
-              alt="Interior da cafeteria"
-              className="rounded-lg shadow-lg w-full"
-            />
+              <Image 
+              src={interiorImg}
+              alt="interior"
+              width={600}
+              quality={100}
+              className="rounded-lg shadow-lg w-full"/>
           </div>
 
           <div className="space-y-8">

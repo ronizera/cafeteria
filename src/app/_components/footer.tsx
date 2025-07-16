@@ -8,7 +8,7 @@ export function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Coffee className="h-8 w-8 text-amber-400" />
-              <span className="text-2xl font-bold">Café Aroma</span>
+              <span className="text-2xl font-bold">Morioka Café</span>
             </div>
             <p className="text-stone-300">O melhor café da cidade, servido com amor e tradição há mais de 15 anos.</p>
           </div>
@@ -56,7 +56,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-stone-700 mt-8 pt-8 text-center text-stone-300">
-          <p>&copy; 2024 Café Aroma. Todos os direitos reservados.</p>
+          <p>&copy; 2025 Morioka Café. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
